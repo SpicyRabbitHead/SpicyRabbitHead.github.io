@@ -6,9 +6,9 @@ name:
   given: Tianshuo
   family: Wei
   alternate: Weits / SpicyRabbitHead
-role: PhD Researcher in Data Science
+role: PhD in Data Science
 bio: |
-  Tianshuo Wei (Weits) is a PhD researcher in Data Science at the City University of Hong Kong.
+  Tianshuo Wei is pursuing a PhD in Data Science at the City University of Hong Kong and is a member of Xu's Lab.
 links:
   - icon: brands/github
     url: https://github.com/SpicyRabbitHead
@@ -17,11 +17,9 @@ links:
     url: mailto:tianshwei2-c@my.cityu.edu.hk
     label: Email
 interests:
-  - Large language models
-  - Embodied AI security
-  - Recommender systems
+  - Memory System of LLM
+  - Embodied AI
   - AI for science
-  - Multimodal and temporal data
 education:
   - degree: PhD in Data Science
     institution: City University of Hong Kong

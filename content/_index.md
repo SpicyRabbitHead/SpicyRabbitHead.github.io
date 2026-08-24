@@ -9,9 +9,7 @@ sections:
     content:
       username: me
       text: |-
-        I am **Tianshuo Wei**, also known online as **Weits** and **SpicyRabbitHead**. I am currently a PhD researcher in Data Science at the **City University of Hong Kong**, supervised by Prof. Kaidi Xu.
-
-        My background combines mathematics, applied machine learning, software automation, and data analysis. I enjoy turning research questions into working systems and sharing useful experiments in public.
+        I am **Tianshuo Wei**. I am currently pursuing a **PhD in Data Science** at the **City University of Hong Kong**, supervised by **Prof. Kaidi Xu**. I am a member of **Xu's Lab**.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -36,11 +34,9 @@ sections:
       text: |-
         My current research interests include:
 
-        - **Large language models** and memory mechanisms
-        - **Embodied AI**, including security risks that connect digital attacks to physical-world harm
-        - **AI for science**, with applications in scientific discovery and materials design
-        - **Recommender systems** and multimodal representation learning
-        - **Multimodal temporal data**, including EEG and eye-tracking signals
+        - **Memory System of LLM**
+        - **Embodied AI**
+        - **AI for science**
     design:
       columns: '1'
 

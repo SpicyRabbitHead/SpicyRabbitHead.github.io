@@ -40,21 +40,17 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
+  - block: collection
     id: publications
     content:
-      title: Selected publications
-      text: |-
-        - **Sustainable Materials Design with Multi-modal Artificial Intelligence**. *Advanced Science*, 2026. Co-first author.
-        - **Feedback Is The Key for Automated Survey Generation**. *ACL 2026*. Co-first author.
-        - **Bloom-Eval: A Hierarchical Evaluation Benchmark for Automatic Survey Generation Based on Bloom's Taxonomy**. *ACL 2026*. Co-first author.
-        - **DANCE: Resource-Efficient Neural Architecture Search with Data-Aware and Continuous Adaptation**. *IJCAI 2025*. Co-first author.
-        - **SPARK: Adaptive Low-Rank Knowledge Graph Modeling in Hybrid Geometric Spaces for Recommendation**. *CIKM 2025*. Co-first author.
-        - **T-GINEE: A Tensor-based Multi-Graph Representation Learning**. *ICLR 2026*.
-
-        Several additional works are under review at **SIGIR, IJCAI, DAC, KDD, and ICML**.
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
     design:
-      columns: '1'
+      view: article-grid
+      columns: 2
 
   - block: markdown
     id: awards

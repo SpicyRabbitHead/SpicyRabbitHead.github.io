@@ -49,11 +49,6 @@ cascade:
       render: never
       list: never
   - target:
-      path: /publications/**
-    build:
-      render: never
-      list: never
-  - target:
       path: /experience.md
     build:
       render: never
@@ -95,3 +90,4 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+

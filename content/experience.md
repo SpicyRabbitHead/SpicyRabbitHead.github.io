@@ -2,6 +2,9 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
+build:
+  render: never
+  list: never
 
 design:
   spacing: '5rem'

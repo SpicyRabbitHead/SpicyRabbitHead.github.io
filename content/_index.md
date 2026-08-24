@@ -9,7 +9,7 @@ sections:
     content:
       username: me
       text: |-
-        I am **Tianshuo Wei**. I am currently pursuing a **PhD in Data Science** at the **City University of Hong Kong**, supervised by **Prof. Kaidi Xu**. I am a member of **Xu's Lab**.
+        I am currently a **PhD in Data Science** at the **City University of Hong Kong**, supervised by [**Prof. Kaidi Xu**](https://kaidixu.com/).
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -69,3 +69,4 @@ sections:
       columns: '1'
 
 ---
+

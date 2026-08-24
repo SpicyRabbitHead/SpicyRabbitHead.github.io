@@ -16,6 +16,9 @@ links:
   - icon: at-symbol
     url: mailto:tianshwei2-c@my.cityu.edu.hk
     label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=AR-E1lMAAAAJ&hl=en
+    label: Google Scholar
 interests:
   - Memory System of LLM
   - Embodied AI
@@ -119,3 +122,4 @@ main:
   - name: GitHub
     url: https://github.com/SpicyRabbitHead
     weight: 50
+

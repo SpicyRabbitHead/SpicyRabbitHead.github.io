@@ -53,13 +53,30 @@ sections:
     design:
       columns: '1'
 
-  - block: resume-experience
+  - block: markdown
     id: experience
     content:
-      username: me
+      title: Experience & education
+      text: |-
+        **PhD in Data Science**, City University of Hong Kong (2025-present)  
+        Supervisor: Prof. Kaidi Xu.
+
+        **MSc in Data Science**, City University of Hong Kong (2024-2025)  
+        GPA 3.9/4.3, Distinction. Supervisor: Prof. Xiangyu Zhao.
+
+        **BSc in Mathematics and Applied Mathematics**, University of Nottingham (2016-2020)  
+        Upper Second Class Honours (2:1).
+
+        **Research and industry experience**
+
+        - Personal Research Assistant, Prof. Kaidi Xu Team, City University of Hong Kong (2025-present): embodied AI security and physical-world risks of LLM-driven systems.
+        - Personal Research Assistant, Applied Computational Intelligence Research Projects (2025): LLM agents for scientific discovery, inequality, materials design, EEG, and eye tracking.
+        - Personal Research Assistant, Applied Machine Learning Lab, City University of Hong Kong (2024-2025): recommender systems and large language models.
+        - Research Assistant, Wangxuan Institute of Computer Technology, Peking University (2023-2024): Chinese text correction with Qwen-7B.
+        - Data Analyst, Lenovo (Shanghai) Electronic Technology Co., Ltd. (2022-2023): web crawling, machine learning, NLP, and dashboards.
+        - Automation Development, Lenovo (Shanghai) Electronic Technology Co., Ltd. (2020-2022): Python, Selenium, and Pytest automation.
     design:
-      date_format: 'January 2006'
-      is_education_first: false
+      columns: '1'
 
   - block: markdown
     id: publications
@@ -77,17 +94,29 @@ sections:
     design:
       columns: '1'
 
-  - block: resume-skills
+  - block: markdown
     id: skills
     content:
       title: Skills & tools
-      username: me
+      text: |-
+        **Programming:** Python, MATLAB, R  
+        **Machine learning:** Regression, decision trees, clustering, PCA, large language models  
+        **Data and engineering:** SQL, Advanced Excel, Selenium, Pytest  
+        **Research:** Recommender systems, multimodal learning, temporal data analysis, AI for science
+    design:
+      columns: '1'
 
-  - block: resume-awards
+  - block: markdown
     id: awards
     content:
       title: Honors & awards
-      username: me
+      text: |-
+        - CityU MSDS Outstanding Dissertation Award (ranked 1st among 296 graduates)
+        - IJCAI 2025 Student Volunteer
+        - Nottingham Advantage Award - Graduation Promotion and Memento Project
+        - Nottingham Advantage Award - Exchange Season
+    design:
+      columns: '1'
 
   - block: cta-card
     id: github

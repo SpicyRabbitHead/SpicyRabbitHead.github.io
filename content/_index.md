@@ -11,8 +11,8 @@ sections:
       text: |-
         I work at the intersection of data science, machine learning, and real-world systems.
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: Visit GitHub
+        url: https://github.com/SpicyRabbitHead
       headings:
         about: About
         education: ''

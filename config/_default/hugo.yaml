@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: 'Weits | SpicyRabbitHead'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://spicyrabbithead.github.io/'
 
 ############################
 ## LANGUAGE
@@ -26,6 +26,38 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  # Keep the starter kit's example content out of the public site until it is
+  # replaced with real personal content.
+  - target:
+      path: /blog/**
+    build:
+      render: never
+      list: never
+  - target:
+      path: /courses/**
+    build:
+      render: never
+      list: never
+  - target:
+      path: /events/**
+    build:
+      render: never
+      list: never
+  - target:
+      path: /projects/**
+    build:
+      render: never
+      list: never
+  - target:
+      path: /publications/**
+    build:
+      render: never
+      list: never
+  - target:
+      path: /experience.md
+    build:
+      render: never
+      list: never
 
 ############################
 ## ADVANCED

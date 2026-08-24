@@ -9,7 +9,9 @@ sections:
     content:
       username: me
       text: |-
-        I work at the intersection of data science, machine learning, and real-world systems.
+        I am **Tianshuo Wei**, also known online as **Weits** and **SpicyRabbitHead**. I am currently a PhD researcher in Data Science at the **City University of Hong Kong**, supervised by Prof. Kaidi Xu.
+
+        My background combines mathematics, applied machine learning, software automation, and data analysis. I enjoy turning research questions into working systems and sharing useful experiments in public.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -28,17 +30,6 @@ sections:
         shape: circle
 
   - block: markdown
-    id: about
-    content:
-      title: About
-      text: |-
-        I am **Tianshuo Wei**, also known online as **Weits** and **SpicyRabbitHead**. I am currently a PhD researcher in Data Science at the **City University of Hong Kong**, supervised by Prof. Kaidi Xu.
-
-        My background combines mathematics, applied machine learning, software automation, and data analysis. I enjoy turning research questions into working systems and sharing useful experiments in public.
-    design:
-      columns: '1'
-
-  - block: markdown
     id: research
     content:
       title: Research focus
@@ -50,31 +41,6 @@ sections:
         - **AI for science**, with applications in scientific discovery and materials design
         - **Recommender systems** and multimodal representation learning
         - **Multimodal temporal data**, including EEG and eye-tracking signals
-    design:
-      columns: '1'
-
-  - block: markdown
-    id: experience
-    content:
-      title: Experience & education
-      text: |-
-        **PhD in Data Science**, City University of Hong Kong (2025-present)  
-        Supervisor: Prof. Kaidi Xu.
-
-        **MSc in Data Science**, City University of Hong Kong (2024-2025)  
-        GPA 3.9/4.3, Distinction. Supervisor: Prof. Xiangyu Zhao.
-
-        **BSc in Mathematics and Applied Mathematics**, University of Nottingham (2016-2020)  
-        Upper Second Class Honours (2:1).
-
-        **Research and industry experience**
-
-        - Personal Research Assistant, Prof. Kaidi Xu Team, City University of Hong Kong (2025-present): embodied AI security and physical-world risks of LLM-driven systems.
-        - Personal Research Assistant, Applied Computational Intelligence Research Projects (2025): LLM agents for scientific discovery, inequality, materials design, EEG, and eye tracking.
-        - Personal Research Assistant, Applied Machine Learning Lab, City University of Hong Kong (2024-2025): recommender systems and large language models.
-        - Research Assistant, Wangxuan Institute of Computer Technology, Peking University (2023-2024): Chinese text correction with Qwen-7B.
-        - Data Analyst, Lenovo (Shanghai) Electronic Technology Co., Ltd. (2022-2023): web crawling, machine learning, NLP, and dashboards.
-        - Automation Development, Lenovo (Shanghai) Electronic Technology Co., Ltd. (2020-2022): Python, Selenium, and Pytest automation.
     design:
       columns: '1'
 
@@ -95,18 +61,6 @@ sections:
       columns: '1'
 
   - block: markdown
-    id: skills
-    content:
-      title: Skills & tools
-      text: |-
-        **Programming:** Python, MATLAB, R  
-        **Machine learning:** Regression, decision trees, clustering, PCA, large language models  
-        **Data and engineering:** SQL, Advanced Excel, Selenium, Pytest  
-        **Research:** Recommender systems, multimodal learning, temporal data analysis, AI for science
-    design:
-      columns: '1'
-
-  - block: markdown
     id: awards
     content:
       title: Honors & awards
@@ -118,17 +72,4 @@ sections:
     design:
       columns: '1'
 
-  - block: cta-card
-    id: github
-    content:
-      title: Find me on GitHub
-      text: |-
-        Browse the code, follow new experiments, or say hello.
-      button:
-        text: Open GitHub profile
-        url: https://github.com/SpicyRabbitHead
-    design:
-      card:
-        css_class: 'bg-primary-600 text-white shadow-xl'
-        css_style: ''
 ---

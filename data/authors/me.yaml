@@ -2,29 +2,122 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Weits
-  given: Weits
-  family: ''
-  alternate: SpicyRabbitHead
-  pronunciation: ''
-  pronouns: ''
-postnominals: []
-role: Developer & maker
+  display: Tianshuo Wei
+  given: Tianshuo
+  family: Wei
+  alternate: Weits / SpicyRabbitHead
+role: PhD Researcher in Data Science
 bio: |
-  I build small things, explore new ideas, and keep notes on what I learn.
-
+  Tianshuo Wei (Weits) is a PhD researcher in Data Science at the City University of Hong Kong.
 links:
   - icon: brands/github
     url: https://github.com/SpicyRabbitHead
     label: GitHub
-
+  - icon: at-symbol
+    url: mailto:tianshwei2-c@my.cityu.edu.hk
+    label: Email
 interests:
-  - Building useful tools
-  - Creative coding
-  - Learning in public
-
-education: []
-experience: []
-skills: []
+  - Large language models
+  - Embodied AI security
+  - Recommender systems
+  - AI for science
+  - Multimodal and temporal data
+education:
+  - degree: PhD in Data Science
+    institution: City University of Hong Kong
+    start: 2025-09-01
+    summary: Supervisor: Prof. Kaidi Xu.
+  - degree: MSc in Data Science
+    institution: City University of Hong Kong
+    start: 2024-09-01
+    end: 2025-10-01
+    summary: GPA 3.9/4.3, Distinction. Supervisor: Prof. Xiangyu Zhao.
+  - degree: BSc in Mathematics and Applied Mathematics
+    institution: University of Nottingham
+    start: 2016-09-01
+    end: 2020-06-30
+    summary: Upper Second Class Honours (2:1).
+experience:
+  - role: Personal Research Assistant
+    org: Prof. Kaidi Xu Team, City University of Hong Kong
+    start: 2025-10-01
+    summary: Studying security challenges introduced by embodied AI powered by large language models.
+  - role: Personal Research Assistant
+    org: Applied Computational Intelligence Research Projects
+    start: 2025-06-01
+    end: 2025-11-30
+    summary: Developed LLM agents for scientific discovery and analyzed multimodal temporal data such as EEG and eye tracking.
+  - role: Personal Research Assistant
+    org: Applied Machine Learning Lab, City University of Hong Kong
+    start: 2024-09-01
+    end: 2025-10-01
+    summary: Researched recommender systems and large language models.
+  - role: Research Assistant
+    org: Wangxuan Institute of Computer Technology, Peking University
+    start: 2023-10-01
+    end: 2024-08-31
+    summary: Developed a Chinese text correction system based on LLMs, including continuous pre-training of Qwen-7B.
+  - role: Full-time Data Analyst
+    org: Lenovo (Shanghai) Electronic Technology Co., Ltd.
+    start: 2022-04-01
+    end: 2023-09-30
+    summary: Built Python web crawlers, machine learning models, NLP pipelines, and visualization dashboards.
+  - role: Full-time Automation Development
+    org: Lenovo (Shanghai) Electronic Technology Co., Ltd.
+    start: 2020-09-01
+    end: 2022-04-01
+    summary: Automated testing with Python, Selenium, and Pytest, reducing test cycles by 70%.
+skills:
+  - name: Programming
+    items:
+      - label: Python
+        level: 5
+      - label: MATLAB
+        level: 4
+      - label: R
+        level: 4
+  - name: Algorithms and machine learning
+    items:
+      - label: Regression and decision trees
+        level: 5
+      - label: Clustering and PCA
+        level: 4
+      - label: Large language models
+        level: 5
+  - name: Data and engineering tools
+    items:
+      - label: SQL
+        level: 4
+      - label: Advanced Excel
+        level: 4
+      - label: Selenium and Pytest
+        level: 4
 languages: []
-awards: []
+awards:
+  - title: CityU MSDS Outstanding Dissertation Award
+    awarder: City University of Hong Kong
+    date: '2025'
+    summary: Ranked 1st among 296 graduates.
+  - title: IJCAI 2025 Student Volunteer
+    awarder: International Joint Conference on Artificial Intelligence
+    date: '2025'
+  - title: Nottingham Advantage Award - Graduation Promotion and Memento Project
+    awarder: University of Nottingham Ningbo China
+  - title: Nottingham Advantage Award - Exchange Season
+    awarder: University of Nottingham Ningbo China
+main:
+  - name: About
+    url: /#about
+    weight: 10
+  - name: Research
+    url: /#research
+    weight: 20
+  - name: Experience
+    url: /#experience
+    weight: 30
+  - name: Publications
+    url: /#publications
+    weight: 40
+  - name: GitHub
+    url: https://github.com/SpicyRabbitHead
+    weight: 50

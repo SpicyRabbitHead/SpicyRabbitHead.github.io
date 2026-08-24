@@ -49,6 +49,10 @@ cascade:
       render: never
       list: never
   - target:
+      path: /publications/**
+    build:
+      render: never
+  - target:
       path: /experience.md
     build:
       render: never

@@ -10,9 +10,6 @@ sections:
       username: me
       text: |-
         I am currently a **PhD in Data Science** at the **City University of Hong Kong**, supervised by [**Prof. Kaidi Xu**](https://kaidixu.com/).
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
       headings:
         about: About
         education: ''
